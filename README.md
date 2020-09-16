@@ -16,7 +16,7 @@ First solve it using `.each` Then utilize the same method using `.collect` to se
 For example:
 
 ```ruby
-reverse_each_word("Hello there, and how are you?")
+ reverse_each_word("Hello there, and howre you?")
   #=> "olleH ,ereht dna woh era ?uoy"
 ```
 
