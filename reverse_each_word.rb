@@ -8,18 +8,17 @@
 
 
 
-def reverse_each_word
+def reverse_each_word(sentence1)
   sentence1 = "Hello there, and how are you?"
   sentence1.split 
   counter = 0 
-  #for each entry in the array, reverse it
-  #sentence1.each do |sentence|
+         #for each entry in the array, reverse it
+         #sentence1.each do |sentence|
     while counter < sentence1.length 
   new_sentence = sentence1(counter).reverse
   counter +=1 
   new_sentence 
- 
-# puts sentence2
+        # puts sentence2
 sentence1.inspect 
 end 
 end 
