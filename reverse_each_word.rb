@@ -1,29 +1,29 @@
-# describe '#reverse_each_word' do
-#   let(:sentence1) { "Hello there, and how are you?" }
-#   it 'reverses all the words in a string without reversing the #order of the words' do
-#     expect(reverse_each_word(sentence1)).to eq("olleH ,ereht dna # era ?uoy")
-# end 
-# end 
-
-
-
 
 def reverse_each_word(sentence1)
+  new_sentence = []                                 
   sentence1 = "Hello there, and how are you?"
-  sentence1.split 
-  counter = 0 
-         #for each entry in the array, reverse it
-         #sentence1.each do |sentence|
-    while counter < sentence1.length 
-  new_sentence = sentence1(counter).reverse
-  counter +=1 
-  new_sentence 
-        # puts sentence2
-sentence1.inspect 
+  new_sentence = sentence1.split( )
+  new_sentence.each do |changed|
+   changed.reverse 
+   puts new_sentence << changed 
 end 
 end 
 
 
+
+def reverse_each_word(sentence)
+  
+  #create new empty array
+  
+ # turn sentence into array
+  
+  #iterate over array
+  #reverse each word and add them to a new array
+  
+ # return array of reveresed words
+  
+  
+end
 
 
   # let(:sentence2) { "Hi again, just making sure it's reversed!" }
