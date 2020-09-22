@@ -9,8 +9,6 @@ return new_sentence
 end 
 
 
-
-def reverse_each_word(sentence)
   
   #create new empty array
   
