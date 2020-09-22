@@ -4,8 +4,7 @@ def reverse_each_word(sentence1)
   sentence1 = "Hello there, and how are you?"
   new_sentence = sentence1.split( )
   new_sentence.each do |changed|
-   changed.reverse 
-   puts new_sentence << changed 
+   puts new_sentence << changed.reverse  
 end 
 end 
 
