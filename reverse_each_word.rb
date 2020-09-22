@@ -10,17 +10,6 @@ end
 
 
   
-  #create new empty array
-  
- # turn sentence into array
-  
-  #iterate over array
-  #reverse each word and add them to a new array
-  
- # return array of reveresed words
-  
-  
-end
 
 
   # let(:sentence2) { "Hi again, just making sure it's reversed!" }
