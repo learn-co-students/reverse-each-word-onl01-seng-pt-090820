@@ -2,10 +2,12 @@
 def reverse_each_word(sentence1)
   new_sentence = []                                 
   sentence_array = sentence1.split( )
-  sentence_array.each do |changed|
-   new_sentence << changed.reverse  
-end 
-return new_sentence 
+  sentence_array.each do |changed| 
+    new_sentence << changed.reverse  
+    
+ end 
+  
+return new_sentence.join(" ")
 end 
 
 
